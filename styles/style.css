@@ -5,7 +5,7 @@ body {
 
 a {
   color: #fff2e7;
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a:visited {
@@ -14,7 +14,7 @@ a:visited {
 
 .header {
   display: flex;
-  flex-wrap: wrap;        /* lets rows stack on small screens */
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
   padding: 2rem 5%;
@@ -33,21 +33,24 @@ a:visited {
 }
 
 #brief_desc {
+  font-size: 19px;
   max-width: 600px;
-  margin: 0 auto;         /* centre the paragraph block */
+  margin: 0 auto;
   line-height: 1.6;
+}
+
+.profile-wrap {
+  flex: 0 1 auto;
+  margin-left: auto;
+  margin-right: auto; /* push to the right */
+  width: 30%; /* adjust as needed */
+  text-align: center;
 }
 
 #profile-picture {
   width: 100%;
-  height: auto;           
-  border-radius: 15px; 
-  float: right;    
-}
-
-.profile-wrap {
-  flex: 0 0 450px;        
-  text-align: right;
+  height: auto;
+  border-radius: 8px;
 }
 
 button {
@@ -60,4 +63,6 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
-button:hover { background: #fff2e710; }
+button:hover {
+  background: #fff2e710;
+}
