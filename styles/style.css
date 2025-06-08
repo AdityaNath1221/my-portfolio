@@ -1,0 +1,63 @@
+body {
+  background-color: black;
+  color: #fff2e7;
+}
+
+a {
+  color: #fff2e7;
+    text-decoration: none;
+}
+
+a:visited {
+  color: #fff2e7;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;        /* lets rows stack on small screens */
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2rem 5%;
+}
+
+.navbar {
+  flex: 1 1 100%;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.intro,
+#brief_desc {
+  flex: 1 1 100%;
+  text-align: center;
+}
+
+#brief_desc {
+  max-width: 600px;
+  margin: 0 auto;         /* centre the paragraph block */
+  line-height: 1.6;
+}
+
+#profile-picture {
+  width: 100%;
+  height: auto;           
+  border-radius: 15px; 
+  float: right;    
+}
+
+.profile-wrap {
+  flex: 0 0 450px;        
+  text-align: right;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  font-size: 1rem;
+  background: transparent;
+  border: 2px solid #fff2e7;
+  color: #fff2e7;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover { background: #fff2e710; }
